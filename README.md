@@ -10,6 +10,7 @@
 ## Basics
 * DEBUG
 * console.log();
+* Style Intellisense
 
 ## TODO LIST 
 * Contact List
