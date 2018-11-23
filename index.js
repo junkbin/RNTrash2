@@ -5,6 +5,6 @@ import App from './App';
 import {name as appName} from './app.json';
 
 
-import {Comp8 as AppCompoent} from './appmodule';
+import {Comp9 as AppCompoent} from './appmodule';
 
 AppRegistry.registerComponent(appName, () => AppCompoent);
