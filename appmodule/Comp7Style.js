@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     },
 
     bgfy : {
-        backgroundColor: 'royalblue'
+        backgroundColor: '#607d8b'
     },
 
     textify : {
