@@ -15,6 +15,8 @@
 * EVENT LISTERNER
 * ICONS 
 * ANIMATION
+* CSS Transition.
+* Multiple Component
 * Native Base
 * Navigation
 * Splash 
