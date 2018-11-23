@@ -13,21 +13,22 @@ export class Comp8 extends React.Component{
     }
 
     componentDidMount(){
-        setTimeout(()=>{this.changeBackground()}, 2000);
+        setTimeout(()=>{this.changeBackground()}, 500);
     }
 
     changeBackground() {
         try{
             const refstyles = JSON.parse(JSON.stringify(styles));
             const random = Math.floor(Math.random() * this.bglist.length);
-            refstyles.bgfy.backgroundColor = this.bglist[random];
+            let colordata = this.bglist[random];
+            refstyles.bgfy.backgroundColor = colordata;
             
             const newRefState = {'bgfy': refstyles.bgfy};
             this.setState(newRefState);
 
             let taskList = [];
-            for(let i=0; i<this.state.title.length; i++){
-                let refdata = this.state.title.substring(0, i+1);
+            for(let i=0; i<colordata.length; i++){
+                let refdata = colordata.substring(0, i+1);
                 taskList.push(refdata);
             }
 
@@ -38,6 +39,7 @@ export class Comp8 extends React.Component{
             }).then(()=>{
 
                 setTimeout(()=>{
+                    this.state.display = "";
                     this.changeBackground();
                 }, 500);
                 
