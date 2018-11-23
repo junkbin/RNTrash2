@@ -7,12 +7,23 @@
 * [https://github.com/crazycodeboy/react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
 * [https://github.com/rt2zz/react-native-contacts](https://github.com/rt2zz/react-native-contacts)
 
+## TODO
+* INLINE
+* INTERNAL
+* EXTERNAL
+* LIFECYCLE & STATE
+* EVENT LISTERNER
+* ICONS 
+* ANIMATION
+* Native Base
+* Navigation
+* Splash 
+
+
 ## Basics
 * DEBUG
 * console.log();
 * Style Intellisense
-* ICONS
-* ANIMATION
 
 ## TODO LIST 
 * Contact List
@@ -23,14 +34,15 @@
 * Camera Access.
 * Offline
 
-## NativeBase
-* Side Navigation
-* Splash 
 
 ## More
 * Crashlytics. 
 * Move from one screen to another. 
 * Share data across screen.
+* Across Device.
+* Across Platform.
+* Deployment Statregy
+* Testing Statregy
 
 
 ## RUN EMULATOR
@@ -38,7 +50,6 @@
 ```
 /Users/santosh/Library/Android/sdk/tools/bin/avdmanager list avd
 ```
-
 * Start an emulator
 ```
     /Users/santosh/Library/Android/sdk/tools/emulator @Nexus_5X_API_26
