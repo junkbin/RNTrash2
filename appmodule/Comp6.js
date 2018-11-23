@@ -8,16 +8,22 @@ export class Comp6 extends React.Component {
     constructor(props){
         super(props);
 
-        this.state = {'title' : 'Helloo Universe!!', 'style6' : styles6};
+        this.state = {'title' : 'Helloo title!!', 'style6' : styles6};
     }
 
     componentDidMount() {
-        setInterval(this.procesChangeBackground, 2000);
+        setTimeout(()=>{
+            this.procesChangeBackground()
+        }, 2000);
     }
 
     procesChangeBackground() {
         try{
-            this.setState({"style6": {"bgfy": 'tomato'}, "title": "World"});
+            const refStyle = JSON.parse(JSON.stringify(styles6));
+            refStyle.bgfy.backgroundColor = 'tomato';
+            const newtitle = "World";
+
+            this.setState({"style6": refStyle, "title": newtitle});
         }catch(err){
             console.log(err);
         }
