@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 import {styles} from './Comp8Style';
 export class Comp8 extends React.Component{
 
-    bglist = ['gold', 'green',  'royalblue', 'tomato',  '#f44336', '#e91e63', '#9c27b0', '#2196f3', '#8bc34a', '#607d8b'];
+    bglist = ['green',  'royalblue', 'tomato',  '#f44336', '#e91e63', '#9c27b0', '#2196f3', '#8bc34a', '#607d8b'];
 
     constructor(props){
         super(props);
@@ -31,7 +31,7 @@ export class Comp8 extends React.Component{
     render(){
         return (
             <View style={[styles.contaienr, this.state.bgfy]}>
-                <Text style={styles.textify}>Helloo</Text>
+                <Text style={styles.textify}>Helloo {this.state.bgfy.backgroundColor}</Text>
             </View>
         );
     }

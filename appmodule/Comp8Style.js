@@ -13,9 +13,9 @@ const styles = StyleSheet.create({
 
     textify : {
         color : 'white',
-        fontSize : 40,
+        fontSize : 30,
         fontWeight : 'bold',
-        fontFamily : 'cursive'
+        fontFamily : 'monospace'
     }
 });
 
