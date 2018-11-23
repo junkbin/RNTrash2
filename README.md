@@ -11,6 +11,8 @@
 * DEBUG
 * console.log();
 * Style Intellisense
+* ICONS
+* ANIMATION
 
 ## TODO LIST 
 * Contact List
