@@ -27,6 +27,7 @@
 * DEBUG
 * console.log();
 * Style Intellisense
+* Debug Inside VSCode. 
 
 ## TODO LIST 
 * Contact List
