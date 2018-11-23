@@ -18,7 +18,8 @@
 * Native Base
 * Navigation
 * Splash 
-
+* Move from one screen to another. 
+* Share data across screen.
 
 ## Basics
 * DEBUG
@@ -37,8 +38,6 @@
 
 ## More
 * Crashlytics. 
-* Move from one screen to another. 
-* Share data across screen.
 * Across Device.
 * Across Platform.
 * Deployment Statregy
