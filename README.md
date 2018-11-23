@@ -53,3 +53,11 @@
 ```
     /Users/santosh/Library/Android/sdk/tools/emulator @Nexus_5X_API_26
 ```
+
+## TO BE ASKED
+* Additional Support
+* Voice Search
+* App Upgrade
+* Native Access (Share Pattern)
+* Payement Info(Google Pay)
+* Inside Page Links
