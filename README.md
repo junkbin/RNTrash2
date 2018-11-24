@@ -69,4 +69,5 @@
 ## DEBUGGING NOTE
 * Install Extension React Native Tools
 * react-native-cli must be installed globally
+* add .react in .gitignore
 * try to clearn already bundled code.
