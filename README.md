@@ -70,4 +70,5 @@
 * Install Extension React Native Tools
 * react-native-cli must be installed globally
 * add .react in .gitignore
+* Issue with bluebird usage and debugging. 
 * try to clearn already bundled code.
