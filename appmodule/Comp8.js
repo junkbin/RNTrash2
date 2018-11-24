@@ -1,6 +1,6 @@
-import React from 'react';
+/*import React from 'react';
 import {View, Text} from 'react-native';
-import * as BPromise from 'bluebird';
+// import * as BPromise from 'bluebird';
 
 import {styles} from './Comp8Style';
 export class Comp8 extends React.Component{
@@ -73,4 +73,4 @@ export class Comp8 extends React.Component{
             </View>
         );
     }
-}
+}*/
