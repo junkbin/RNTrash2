@@ -40,10 +40,11 @@
 
 
 ## More
+* Production Build.
 * Crashlytics. 
-* Across Device.
-* Across Platform.
-* Deployment Statregy
+* Across Device. [Different handsets]
+* Across Platform. [ANDROID & IOS]
+* Deployment Statregy. [APP STORE & PLAY STORE]
 * Testing Statregy
 
 
