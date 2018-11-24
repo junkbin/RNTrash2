@@ -64,3 +64,9 @@
 * Native Access (Share Pattern)
 * Payement Info(Google Pay)
 * Inside Page Links
+
+
+## DEBUGGING NOTE
+* Install Extension React Native Tools
+* react-native-cli must be installed globally
+* try to clearn already bundled code.
